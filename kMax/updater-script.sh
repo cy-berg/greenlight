@@ -8,7 +8,8 @@ echo -e "${Cyan}delete the Directory-files,json,yml etc. ${NC}"
 rm de.json en.json fa.json de.yml en.yml fa.yml docker-compose.yml application.html.erb
 #
 echo -e"${Green} docker compose down ${NC}"
-docker compose down
+docker compose -f docker-compose.yml down
+#docker compose down
 echo -e "${Green} downloading the json, yml and erb Files from Github ${NC}"
 wget https://raw.githubusercontent.com/cy-berg/greenlight/main/kMax/docker-compose.yml
 wget https://raw.githubusercontent.com/cy-berg/greenlight/main/kMax/de.json
