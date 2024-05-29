@@ -6,7 +6,7 @@ NoColor='\033[0m' # No Color
 
 echo -e "${Magenta} docker compose down AND all of images will be deleted ${NoColor}"
 #docker compose -f docker-compose.yml down
-docker compose down --rmi all --volumes
+docker compose down --rmi all
 echo "did it worked___???"
 echo -e "${Green}delete the Directory-files,json,yml etc. ${NoColor}"
 rm de.json en.json fa.json de.yml en.yml fa.yml docker-compose.yml application.html.erb
