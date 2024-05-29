@@ -10,6 +10,7 @@ rm de.json en.json fa.json de.yml en.yml fa.yml docker-compose.yml application.h
 echo -e"${Green} docker compose down ${NC}"
 docker compose down
 echo -e "${Green} downloading the json, yml and erb Files from Github ${NC}"
+wget https://raw.githubusercontent.com/cy-berg/greenlight/main/kMax/docker-compose.yml
 wget https://raw.githubusercontent.com/cy-berg/greenlight/main/kMax/de.json
 wget https://raw.githubusercontent.com/cy-berg/greenlight/main/kMax/en.json
 wget https://raw.githubusercontent.com/cy-berg/greenlight/main/kMax/fa.json
