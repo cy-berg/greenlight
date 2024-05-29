@@ -1,13 +1,14 @@
 #!/bin/bash
 Green='\033[0;32m' 
 Cyan='\033[0;36m'
+purple='\034[0;35m'
 NoColor='\033[0m' # No Color
 
-echo -e "${Green} docker compose goes down ${NoColor}"
+echo -e "${Green} docker compose goes down and all of images will be deleted ${NoColor}"
 #docker compose -f docker-compose.yml down
-docker compose down
+docker compose down --rmi all
 echo "did it worked___???"
-echo -e "${Cyan}delete the Directory-files,json,yml etc. ${NoColor}"
+echo -e "${purple}delete the Directory-files,json,yml etc. ${NoColor}"
 rm de.json en.json fa.json de.yml en.yml fa.yml docker-compose.yml application.html.erb
 #
 echo -e "${Green} downloading the json, yml and erb Files from Github ${NoColor}"
