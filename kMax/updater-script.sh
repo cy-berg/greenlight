@@ -4,9 +4,10 @@ Green='\033[0;32m'
 Cyan='\033[0;36m'
 NC='\033[0m' # No Color
 
-echo -e"${Green} docker compose down ${NC}"
-docker compose -f docker-compose.yml down
-#docker compose down
+echo -e "${Green} docker compose down ${NC}"
+#docker compose -f docker-compose.yml down
+echo "???did it worked"
+docker compose down
 
 echo -e "${Cyan}delete the Directory-files,json,yml etc. ${NC}"
 rm de.json en.json fa.json de.yml en.yml fa.yml docker-compose.yml application.html.erb
