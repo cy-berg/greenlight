@@ -8,6 +8,7 @@ echo -e "${Magenta} docker compose down AND all of images will be deleted ${NoCo
 #docker compose -f docker-compose.yml down
 docker compose down --rmi all
 echo "did it delete all Containers???"
+echo -e "${Cyan} please wait: it starts in a few secound. ${NoColor}"
 sleep 10s
 echo -e "${Green}delete the Directory-files,json,yml etc. ${NoColor}"
 rm de.json en.json fa.json de.yml en.yml fa.yml docker-compose.yml application.html.erb
