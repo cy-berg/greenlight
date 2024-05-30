@@ -28,10 +28,10 @@
   "no_result_search_input": "Es konnten keine Ergebnisse für \"{{ searchInput }}\" gefunden werden",
   "action_permanent": "Diese Aktion kann nicht rückgängig gemacht werden.",
   "homepage": {
-    "welcome_bbb": " Kabulmax .",
+    "welcome_bbb": "KabulMax .",
     "bigbluebutton_description": "Die Online-Video-Kon­fe­renz für das Zusammenzuarbeiten und Feedback, in Echtzeit.",
-    "greenlight_description": "Virtuelle  Klassen-und-Meetings-raum.",
-    "learn_more": "learn_more ",
+    "greenlight_description": "Virtuelle Kon­fe­renz.",
+    "learn_more": "das bewährtes system ",
     "explore_features": "Entdecke unsere Features",
     "meeting_title": "Konferenzen starten",
     "meeting_description": "Bildschirmfreigabe, Chat und weitere Tools.",
