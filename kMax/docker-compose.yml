@@ -30,8 +30,24 @@ services:
     volumes:
       - ./data/greenlight-v3/storage:/usr/src/app/storage
       - ./de.json:/usr/src/app/app/assets/locales/de.json
-      - ./en.json:/usr/src/app/app/assets/locales/en.json
       - ./fa.json:/usr/src/app/app/assets/locales/fa.json
+      - ./en.json:/usr/src/app/app/assets/locales/en.json
+      - ./en.json:/usr/src/app/app/assets/locales/fr.json
+	    - ./en.json:/usr/src/app/app/assets/locales/hi.json
+	    - ./en.json:/usr/src/app/app/assets/locales/tr.json
+	    - ./en.json:/usr/src/app/app/assets/locales/ru.json
+	    - ./en.json:/usr/src/app/app/assets/locales/no.json
+	    - ./en.json:/usr/src/app/app/assets/locales/fi.json
+	    - ./en.json:/usr/src/app/app/assets/locales/da.json
+	    - ./en.json:/usr/src/app/app/assets/locales/cs.json
+	    - ./en.json:/usr/src/app/app/assets/locales/hu.json
+	    - ./en.json:/usr/src/app/app/assets/locales/el.json
+      - ./en.json:/usr/src/app/app/assets/locales/hr.json
+	    - ./en.json:/usr/src/app/app/assets/locales/bg.json
+	    - ./en.json:/usr/src/app/app/assets/locales/es.json
+      - ./en.json:/usr/src/app/app/assets/locales/nl.json
+      - ./en.json:/usr/src/app/app/assets/locales/ar.json
+      
       - ./de.yml:/usr/src/app/config/locales/de.yml
       - ./en.yml:/usr/src/app/config/locales/en.yml
       - ./fa.yml:/usr/src/app/config/locales/fa.yml
