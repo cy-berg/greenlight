@@ -6,7 +6,8 @@ NoColor='\033[0m' # No Color
 
 echo -e "${Magenta} docker compose down AND all of images will be deleted ${NoColor}"
 #docker compose -f docker-compose.yml down
-docker compose down --rmi all
+#docker compose down --rmi all
+docker compose down
 echo "did it delete all Containers???"
 echo -e "${Cyan} please wait: it starts in a few secound. ${NoColor}"
 sleep 10s
