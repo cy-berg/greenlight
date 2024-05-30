@@ -47,20 +47,20 @@
 
 de:
   opengraph:
-    description: " Diese Meeting ist von Kabulmax.com organisiert."
+    description: " Dieses Meeting ist von Kabulmax.com organisiert."
   meeting:
     moderator_message: "Um jemanden zur Konferenz einzuladen, verschicke diesen Link:"
     access_code: "Zugangscode: %{code}"
   email:
     activation:
       account_activation: Kontoaktivierung
-      welcome_to_bbb: Willkommen bei Kabulmax Meeting Session!
+      welcome_to_bbb: Willkommen bei Kabulmax Meeting!
       get_started: Klicke auf die Schaltfläche um das Konto zu aktivieren.
       activate_account: Konto aktivieren
       link_expires: Der Link wird in 24 Stunden ungültig.
       if_link_expires: "Sollte der Link abgelaufen sein, dann melde dich bitte an und fordere eine neue Aktivierungs-EMail an."
     invitation:
-      invitation_to_join: Kabulmax-Einladung
+      invitation_to_join: Kabulmax-Meeting
       you_have_been_invited: "Du wurdest von %{name} eingeladen, ein BigBlueButton-Konto zu erstellen."
       get_started: "Um dich zu registrieren, klicken bitte auf diese Schaltfläche."
       valid_invitation: Die Einladung ist 24 Stunden gültig.
